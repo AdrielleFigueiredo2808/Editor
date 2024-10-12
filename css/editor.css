@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8A2BE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    flex-direction: column; 
+}
+
+#parentEditor {
+    width: 600px;
+    border: 4px solid #FB0881;
+    border-radius: 3px;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+#painelEditor {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color:#FB0881;
+}
+
+#editor {
+    padding: 10px;
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.btnColor {
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8A2BE2; 
+}
+
+#fontColor {
+    color: #000000;
+}
+
+#backColor {
+    color: #000000;
+}
+
+#paleta {
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+}
+
+.demo-icon {
+    cursor: pointer;
+    color: #000000;
+}
+
+.demo-icon:hover {
+    color:#FB0881;
+}
+
+input:focus, textarea:focus, select:focus, #editor:focus {
+    outline: 2px solid #FB0881;
+    border-color: #FB0881;
+}
+
+
